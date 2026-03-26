@@ -27,7 +27,7 @@ This project is open-source and available under the MIT License.
   <img src="https://media1.tenor.com/m/a6S35wgiCOsAAAAC/deku-java.gif" width="400"/>
 </p>
 
----
+--
 
 ### 🛡 Let's Connect!
 
