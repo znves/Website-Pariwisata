@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="IMG_20260327_021030.jpg" width="400"/>
+  <img src="/image/IMG_20260327_021030.jpg" width="400"/>
 </p>
 
 # Discover Majalengka
