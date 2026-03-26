@@ -3,59 +3,325 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discover Majalengka</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Discover Majalengka - The Ultimate Tourism and Cultural Portal. Explore the hidden gems, rich Sundanese heritage, majestic landscapes, and vibrant culinary scene of Majalengka Regency, West Java, Indonesia.">
+    <meta name="keywords" content="Majalengka, Tourism, West Java, Indonesia, Travel, Panyaweuyan, Waterfall, Mount Ciremai, Jatiwangi Art Factory, Sundanese Culture, Gedong Gincu">
+    <meta name="author" content="Majalengka Tourism Board">
+    <meta property="og:title" content="Discover Majalengka | The Exotic Sundanese Gem">
+    <meta property="og:description" content="Embark on a journey through emerald-green terraced hills, pristine roaring waterfalls, and vibrant cultural heritage that will leave you breathless.">
+    <meta property="og:type" content="website">
+    <title>Discover Majalengka | Official Tourism & Cultural Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">Explore Majalengka</div>
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="destinations.html">Destinations</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="burger" id="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo">MAJALENGKA<span class="dot">.</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="active">Discover</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="culture.html">Heritage</a></li>
+                <li><a href="gastronomy.html">Gastronomy</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="destinations.html" class="btn-primary-nav">Plan Your Trip</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
     </nav>
-
-    <header class="hero">
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>The Exotic Sundanese Gem</h1>
-            <p>Experience breathtaking terraced hills, pristine waterfalls, and the rich cultural heritage of Majalengka.</p>
-            <a href="destinations.html" class="btn">Explore Now</a>
+            <span class="subtitle">Welcome to The Wind City of West Java</span>
+            <h1 class="hero-title">Unveil The Hidden<br>Sundanese Paradise</h1>
+            <p class="hero-description">Beyond the bustling cities of Java lies Majalengka, a sanctuary where majestic mountains touch the clouds, ancient cultural traditions thrive in modern communities, and every winding road leads to breathtaking natural wonders. Experience the authentic soul of Indonesia.</p>
+            <div class="hero-actions">
+                <a href="#explore" class="btn-primary">Begin Exploration</a>
+                <a href="destinations.html" class="btn-secondary">View Interactive Map</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item"><span class="stat-number">100+</span><span class="stat-label">Waterfalls</span></div>
+                <div class="stat-item"><span class="stat-number">3078m</span><span class="stat-label">Highest Peak</span></div>
+                <div class="stat-item"><span class="stat-number">14th</span><span class="stat-label">Century Heritage</span></div>
+            </div>
         </div>
     </header>
-
-    <section class="highlights">
-        <h2>Why Visit Majalengka?</h2>
-        <div class="card-container">
-            <div class="card">
-                <h3>Stunning Landscapes</h3>
-                <p>From the iconic Argapura terraced fields to majestic mountains, nature is always calling.</p>
+    <main id="explore">
+        <section class="intro-section section-padding">
+            <div class="container intro-grid">
+                <div class="intro-text">
+                    <span class="section-badge">The Gateway</span>
+                    <h2 class="section-title">A Symphony of Nature and Urban Evolution</h2>
+                    <p class="lead-text">Majalengka Regency, historically known as a quiet agricultural hub, has transformed into a premier global destination without losing its authentic charm. Anchored by the Kertajati International Airport (BIJB), it is now more accessible than ever, inviting world travelers to discover its secrets.</p>
+                    <p>Geographically uniquely positioned, Majalengka offers a dramatic transition from the sweltering northern coastal plains to the cool, misty highlands of the south. This topographical diversity creates a microclimate perfect for exotic agriculture, dense tropical forests, and a landscape carved by ancient volcanic activity. Whether you seek the adrenaline of summiting stratovolcanoes or the peace of meditating by crystal-clear spring lakes, the land provides.</p>
+                    <a href="about.html" class="link-arrow">Read our full history &#8594;</a>
+                </div>
+                <div class="intro-gallery">
+                    <img src="https://images.unsplash.com/photo-1596404984534-118c7d0d046e?auto=format&fit=crop&w=600&q=80" alt="Majalengka Landscape" class="img-main">
+                    <img src="https://images.unsplash.com/photo-1544434914-f584e0394334?auto=format&fit=crop&w=400&q=80" alt="Majalengka River" class="img-sub">
+                </div>
             </div>
-            <div class="card">
-                <h3>Rich Culture</h3>
-                <p>Immerse yourself in authentic Sundanese traditions, warm hospitality, and vibrant local arts.</p>
+        </section>
+        <section class="culture-section section-padding bg-dark">
+            <div class="container">
+                <div class="section-header center light-text">
+                    <span class="section-badge">Living Heritage</span>
+                    <h2 class="section-title">The Soul of Sundanese Culture</h2>
+                    <p class="section-desc">Our traditions are not confined to museums; they are lived, breathed, and celebrated daily in our villages and towns. Experience the vibrant tapestry of Majalengka's arts.</p>
+                </div>
+                <div class="culture-grid">
+                    <div class="culture-card">
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1528222409593-9204bc32e721?auto=format&fit=crop&w=600&q=80" alt="Tari Topeng"></div>
+                        <div class="card-content">
+                            <h3>Tari Topeng Beber</h3>
+                            <p>A mesmerizing traditional mask dance that dates back centuries. The Tari Topeng of Beber village is distinct for its intricate wooden masks and the profound philosophical meaning behind each movement, representing the human life cycle from innocence to wisdom.</p>
+                        </div>
+                    </div>
+                    <div class="culture-card">
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80" alt="Jatiwangi Art Factory"></div>
+                        <div class="card-content">
+                            <h3>Jatiwangi Art Factory (JaF)</h3>
+                            <p>A globally recognized contemporary art collective situated in a former roof-tile factory. JaF transforms local clay into instruments, hosting the renowned Ceramic Music Festival and proving that rural communities can be epicenters of modern avant-garde art.</p>
+                        </div>
+                    </div>
+                    <div class="culture-card">
+                        <div class="card-img"><img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=600&q=80" alt="Sintren Dance"></div>
+                        <div class="card-content">
+                            <h3>The Mystical Sintren</h3>
+                            <p>An ancient, mystical dance born from folklore. Accompanied by bamboo gamelan and chanting, a young maiden is put into a trance, magically changing costumes inside a closed bamboo cage. It is a rare, spiritual performance deeply tied to agricultural rituals.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <h3>Culinary Delights</h3>
-                <p>Taste the unique flavors of West Java, including the famous Jalakotek and artisanal soy sauce.</p>
+        </section>
+        <section class="nature-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Natural Wonders</span>
+                    <h2 class="section-title">Masterpieces of the Earth</h2>
+                    <p class="section-desc">From the highest peak in West Java to hidden subterranean rivers, explore the raw, unfiltered beauty of our ecosystems.</p>
+                </div>
+                <div class="destination-showcase">
+                    <article class="showcase-item">
+                        <div class="showcase-content">
+                            <h3 class="showcase-title">Mount Ciremai National Park</h3>
+                            <div class="meta-tags"><span class="tag">Hiking</span><span class="tag">Wildlife</span><span class="tag">Altitude: 3078m</span></div>
+                            <p>Standing as the roof of West Java, Mount Ciremai is a majestic stratovolcano offering some of the most challenging and rewarding trekking routes in Indonesia. The Apuy trail from Majalengka leads hikers through dense, mist-shrouded montane forests, home to the endangered Javan leopard and Javan surili, culminating in a breathtaking crater view at the summit.</p>
+                            <a href="destinations.html#ciremai" class="btn-text">Discover Trails &#8594;</a>
+                        </div>
+                        <div class="showcase-image"><img src="https://images.unsplash.com/photo-1506905925209-4ce4327249a1?auto=format&fit=crop&w=1000&q=80" alt="Mount Ciremai"></div>
+                    </article>
+                    <article class="showcase-item reverse">
+                        <div class="showcase-content">
+                            <h3 class="showcase-title">Terasering Panyaweuyan</h3>
+                            <div class="meta-tags"><span class="tag">Photography</span><span class="tag">Sightseeing</span><span class="tag">Argapura</span></div>
+                            <p>A mesmerizing expanse of neatly contoured onion fields clinging to the steep slopes of the Argapura hills. The geometric perfection created by local farmers over generations offers a surreal, emerald-green panorama. Arrive before dawn to witness the magical phenomenon of the "sea of clouds" rolling over the terraces as the sun rises.</p>
+                            <a href="destinations.html#panyaweuyan" class="btn-text">View Gallery &#8594;</a>
+                        </div>
+                        <div class="showcase-image"><img src="https://images.unsplash.com/photo-1596404984534-118c7d0d046e?auto=format&fit=crop&w=1000&q=80" alt="Panyaweuyan Terraces"></div>
+                    </article>
+                    <article class="showcase-item">
+                        <div class="showcase-content">
+                            <h3 class="showcase-title">Curug Muara Jaya</h3>
+                            <div class="meta-tags"><span class="tag">Waterfall</span><span class="tag">Nature Walk</span><span class="tag">Argalingga</span></div>
+                            <p>Hidden deep within a lush valley on the slopes of Ciremai lies this spectacular multi-tiered waterfall. The main drop plunges over 70 meters into a rocky basin, creating a permanent mist that nourishes the surrounding tropical flora. The well-maintained stone path leading to the falls offers a tranquil walk accompanied by the symphony of forest birds.</p>
+                            <a href="destinations.html#muarajaya" class="btn-text">Plan a Visit &#8594;</a>
+                        </div>
+                        <div class="showcase-image"><img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1000&q=80" alt="Muara Jaya Waterfall"></div>
+                    </article>
+                    <article class="showcase-item reverse">
+                        <div class="showcase-content">
+                            <h3 class="showcase-title">Situ Cipanten</h3>
+                            <div class="meta-tags"><span class="tag">Lake</span><span class="tag">Recreation</span><span class="tag">Sindang</span></div>
+                            <p>An incredibly serene lake fed by seven natural forest springs, resulting in water so clear it resembles liquid glass. Visitors can rent traditional wooden boats to glide over the submerged forest, observe the colorful koi fish swimming beneath, or enjoy the cool breeze under the shade of giant, ancient pine trees surrounding the banks.</p>
+                            <a href="destinations.html#cipanten" class="btn-text">Explore More &#8594;</a>
+                        </div>
+                        <div class="showcase-image"><img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1000&q=80" alt="Situ Cipanten"></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="gastronomy-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-badge">Culinary Delights</span>
+                    <h2 class="section-title">A Taste of Authentic Majalengka</h2>
+                    <p class="section-desc">Our fertile volcanic soils and traditional recipes create a culinary landscape that is bold, fresh, and deeply satisfying.</p>
+                </div>
+                <div class="gastro-grid">
+                    <div class="gastro-item">
+                        <div class="gastro-img"><img src="https://images.unsplash.com/photo-1582515073490-39981397c445?auto=format&fit=crop&w=600&q=80" alt="Gedong Gincu Mango"></div>
+                        <div class="gastro-info">
+                            <h4>Mangga Gedong Gincu</h4>
+                            <p>The pride of Majalengka's agriculture. This visually striking mango, characterized by its reddish-orange hue, offers an intoxicating aroma and an intensely sweet flavor profile unparalleled by other varieties. Best enjoyed fresh or as a premium local juice.</p>
+                        </div>
+                    </div>
+                    <div class="gastro-item">
+                        <div class="gastro-img"><img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=600&q=80" alt="Traditional Food"></div>
+                        <div class="gastro-info">
+                            <h4>Jalakotek & Ampas Kecap</h4>
+                            <p>A quintessential street food experience. Jalakotek is a savory, chewy pastry filled with spiced tofu, typically served with a fiery chili sauce. Pair it with dishes seasoned using 'Ampas Kecap', a unique fermented soy byproduct that adds deep umami flavors to local stir-fries.</p>
+                        </div>
+                    </div>
+                    <div class="gastro-item">
+                        <div class="gastro-img"><img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=600&q=80" alt="Soy Sauce"></div>
+                        <div class="gastro-info">
+                            <h4>Legendary Artisanal Soy Sauce</h4>
+                            <p>Majalengka has a century-old tradition of producing premium sweet soy sauce (Kecap). Brewed using traditional clay pots, natural palm sugar, and black soybeans fermented for months, it is the secret ingredient behind the rich flavors of regional West Javanese cuisine.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="itinerary-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Curated Experiences</span>
+                    <h2 class="section-title">Recommended Itineraries</h2>
+                    <p class="section-desc">Maximize your time with our expertly crafted travel plans, designed for different paces and preferences.</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">Day 1</div>
+                        <div class="timeline-content">
+                            <h3>The Highland Awakening</h3>
+                            <ul class="itinerary-list">
+                                <li><strong>05:00 AM:</strong> Sunrise photography at Terasering Panyaweuyan.</li>
+                                <li><strong>08:30 AM:</strong> Traditional breakfast of Nasi Kasreng in Argapura.</li>
+                                <li><strong>10:00 AM:</strong> Trekking down to the majestic Curug Muara Jaya.</li>
+                                <li><strong>02:00 PM:</strong> Relaxation and boating at the crystal-clear Situ Cipanten.</li>
+                                <li><strong>06:00 PM:</strong> Dinner in Majalengka city center, sampling local Sate Kalong.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">Day 2</div>
+                        <div class="timeline-content">
+                            <h3>Culture & Adrenaline</h3>
+                            <ul class="itinerary-list">
+                                <li><strong>08:00 AM:</strong> River Tubing adventure at Cikadongdong River.</li>
+                                <li><strong>12:00 PM:</strong> Lunch featuring fresh Gourami fish at a local Saung.</li>
+                                <li><strong>02:00 PM:</strong> Visit Jatiwangi Art Factory for contemporary art and ceramic music.</li>
+                                <li><strong>04:30 PM:</strong> Explore the heritage architecture of the former sugar factory in Kadipaten.</li>
+                                <li><strong>07:00 PM:</strong> Evening cultural performance (Tari Topeng) at a local cultural center.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker">Day 3</div>
+                        <div class="timeline-content">
+                            <h3>The Ultimate Challenge</h3>
+                            <ul class="itinerary-list">
+                                <li><strong>04:00 AM:</strong> Registration at Apuy Basecamp for Mount Ciremai hike.</li>
+                                <li><strong>06:00 AM - 04:00 PM:</strong> Full-day challenging trek through diverse forest zones (Requires good physical condition).</li>
+                                <li><strong>Alternative:</strong> For a lighter day, visit the terraced tea plantations of Cipasung and the tranquil Talaga Herang lake.</li>
+                                <li><strong>05:00 PM:</strong> Souvenir shopping (Kecap Majalengka, Gedong Gincu, Jalakotek) before departure.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tips-section section-padding bg-dark">
+            <div class="container">
+                <div class="section-header center light-text">
+                    <span class="section-badge">Travel Smart</span>
+                    <h2 class="section-title">Essential Travel Tips</h2>
+                </div>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <div class="tip-icon">&#9925;</div>
+                        <h4>Best Time to Visit</h4>
+                        <p>To witness the greenest terraces at Panyaweuyan, visit between December and March. For hiking Mount Ciremai, the dry season from May to September offers the clearest skies and safest trails.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon">&#128663;</div>
+                        <h4>Getting Around</h4>
+                        <p>While public minivans (Angkot) are available, renting a scooter or a private car with a local driver is highly recommended to reach mountainous areas with steep and winding roads.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon">&#128176;</div>
+                        <h4>Currency & Connectivity</h4>
+                        <p>Ensure you have sufficient IDR cash, as smaller vendors and remote tourism spots do not accept cards. 4G signal is generally strong, but may drop in deep valleys or high on Mount Ciremai.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter-section section-padding">
+            <div class="container newsletter-wrapper">
+                <div class="newsletter-content">
+                    <h2>Ready for an Adventure?</h2>
+                    <p>Subscribe to our official tourism newsletter to receive seasonal guides, hidden destination reveals, and exclusive offers from local partners straight to your inbox.</p>
+                </div>
+                <form class="newsletter-form" action="#" method="POST">
+                    <input type="email" placeholder="Enter your email address" required aria-label="Email Address">
+                    <button type="submit" class="btn-primary">Get Updates</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="brand-logo light">MAJALENGKA<span class="dot">.</span></a>
+                <p class="footer-desc">The official tourism board dedicated to preserving the culture, protecting the environment, and promoting the magnificent Regency of Majalengka to the world.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook" class="social-icon">FB</a>
+                    <a href="#" aria-label="Instagram" class="social-icon">IG</a>
+                    <a href="#" aria-label="Twitter" class="social-icon">TW</a>
+                    <a href="#" aria-label="YouTube" class="social-icon">YT</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-title">Discover</h4>
+                <ul>
+                    <li><a href="destinations.html">All Destinations</a></li>
+                    <li><a href="culture.html">Art & Culture</a></li>
+                    <li><a href="gastronomy.html">Food & Drink</a></li>
+                    <li><a href="events.html">Annual Events</a></li>
+                    <li><a href="maps.html">Interactive Maps</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-title">Plan Your Trip</h4>
+                <ul>
+                    <li><a href="accommodation.html">Where to Stay</a></li>
+                    <li><a href="transport.html">Transportation</a></li>
+                    <li><a href="guides.html">Local Tour Guides</a></li>
+                    <li><a href="faq.html">Traveler FAQ</a></li>
+                    <li><a href="safety.html">Safety Guidelines</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4 class="footer-title">Contact Us</h4>
+                <address class="contact-details">
+                    <p><strong>Tourism Information Center</strong></p>
+                    <p>Jl. KH. Abdul Halim No. 1</p>
+                    <p>Majalengka Kulon, Kec. Majalengka</p>
+                    <p>Jawa Barat 45418, Indonesia</p>
+                    <p class="contact-methods">
+                        <a href="tel:+62233123456">+62 233 123456</a><br>
+                        <a href="mailto:explore@discovermajalengka.id">explore@discovermajalengka.id</a>
+                    </p>
+                </address>
             </div>
         </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 Discover Majalengka. All rights reserved.</p>
-        <div class="footer-links">
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="terms-of-service.html">Terms of Service</a>
+        <div class="footer-bottom">
+            <div class="container bottom-flex">
+                <p class="copyright">&copy; 2026 Discover Majalengka Tourism Board. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-of-service.html">Terms of Service</a>
+                    <a href="accessibility.html">Accessibility Statement</a>
+                </div>
+            </div>
         </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
-</html>
+    </html>
