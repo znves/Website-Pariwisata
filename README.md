@@ -17,6 +17,8 @@ Discover Majalengka is a modern, responsive, and interactive tourism portal dedi
 ## License
 This project is open-source and available under the MIT License.
 
+--
+
 <p align="center">
   <img src="https://media1.tenor.com/m/a6S35wgiCOsAAAAC/deku-java.gif" width="400"/>
 </p>
