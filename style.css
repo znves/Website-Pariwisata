@@ -15,7 +15,6 @@
     --font-body: 'Inter', sans-serif;
     --transition-fast: 0.2s ease-in-out;
     --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -156,6 +155,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .brand-logo {
     font-family: var(--font-heading);
@@ -420,11 +420,13 @@ img {
     font-weight: 700;
     width: 120px;
     color: var(--primary-color);
+    flex-shrink: 0;
 }
 .detail-value {
     color: var(--text-muted);
     flex: 1;
     font-weight: 500;
+    word-break: break-word;
 }
 .inquiry-form {
     background-color: var(--bg-main);
@@ -444,6 +446,7 @@ img {
 }
 .input-group {
     margin-bottom: 24px;
+    width: 100%;
 }
 .input-group label {
     display: block;
@@ -554,6 +557,7 @@ img {
 @media screen and (max-width: 1200px) {
     .intro-grid, .contact-layout {
         grid-template-columns: 1fr;
+        gap: 60px;
     }
     .intro-gallery {
         margin-top: 64px;
@@ -563,12 +567,15 @@ img {
     }
 }
 @media screen and (max-width: 768px) {
-    .form-grid {
-        grid-template-columns: 1fr;
+    .section-padding {
+        padding: 80px 0;
     }
-    .footer-simple-flex {
-        flex-direction: column;
-        text-align: center;
+    .nav-container {
+        padding: 0 20px;
+    }
+    .brand-logo {
+        margin-right: -4px;
+        font-size: 1.5rem;
     }
     .hero-title {
         font-size: 3rem;
@@ -576,14 +583,37 @@ img {
     .hero-stats {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 32px;
     }
     .stat-item {
         width: 40%;
+    }
+    .form-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
     }
     .inquiry-form {
         padding: 32px 24px;
     }
     .info-block {
         padding: 32px 24px;
+    }
+    .contact-detail-row {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .detail-label {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .footer-simple-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .full-grid {
+        grid-template-columns: 1fr;
+    }
+    .intro-gallery {
+        height: 400px;
     }
     }
