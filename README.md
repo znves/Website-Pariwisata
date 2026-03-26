@@ -1,9 +1,10 @@
 <p align="center">
   <img src="/image/IMG_20260327_021030.jpg" width="400"/>
-
-<a href="https://tiktok.com/@sopbandung" target="_blank">
-</a>
 </p>
+
+<div align="center">
+  <a href="https://instagram.com/akbarapriloo" target="_blank">
+  </a>
 
 # Discover Majalengka
 
