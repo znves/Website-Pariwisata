@@ -29,17 +29,6 @@ This project is open-source and available under the MIT License.
 
 ---
 
-### 🔥 GitHub Stats
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=znves&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=znves&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" alt="Top Languages" />
-  <br><br>
-  <img src="https://u8views.com/api/v1/github/profiles/159621234/views/day-week-month-total-count.svg" alt="Profile Views" />
-</div>
-
----
-
 ### 🛡 Let's Connect!
 
 <div align="center">
@@ -50,14 +39,3 @@ This project is open-source and available under the MIT License.
     <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
   </a>
 </div>
-<br>
-<div align="center">
-  Discord Accounts
-  <a href="https://discord.com/users/406465220391731220" target="_blank">
-    <img width="350" src="https://lanyard.cnrad.dev/api/406465220391731220" alt="First Account"/>
-  </a>
-  <a href="https://discord.com/users/995913592253710356" target="_blank">
-    <img width="350" src="https://lanyard.cnrad.dev/api/995913592253710356" alt="Second Account"/>
-  </a>
-</div>
-
