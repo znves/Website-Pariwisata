@@ -1,7 +1,7 @@
 <p align="center">
   <img src="/image/IMG_20260327_021030.jpg" width="400"/>
 
-<a href="https://media-majalengka.vercel.app" target="_blank">
+<a href="https://media-majalengka.vercel.app">
 </p>
 
 # Discover Majalengka
