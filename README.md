@@ -2,6 +2,8 @@
   <img src="/image/IMG_20260327_021030.jpg" width="400"/>
 </p>
 
+https://media-majalengka.vercel.app
+
 # Discover Majalengka
 
 Discover Majalengka is a modern, responsive, and interactive tourism portal dedicated to showcasing the breathtaking natural beauty, rich culture, and hidden gems of Majalengka Regency, West Java, Indonesia.
