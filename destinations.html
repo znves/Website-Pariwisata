@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the magnificent destinations of Majalengka. Discover waterfalls, mountains, lakes, and cultural heritage sites.">
+    <title>Destinations | Discover Majalengka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo">MAJALENGKA<span class="dot">.</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Discover</a></li>
+                <li><a href="destinations.html" class="active">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="destinations.html" class="btn-primary-nav">Plan Your Trip</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <header class="page-header bg-dark">
+        <div class="container text-center">
+            <h1 class="hero-title animate-up">Explore Our Wonders</h1>
+            <p class="hero-description animate-up-delay">Filter and find your perfect getaway in the heart of West Java.</p>
+        </div>
+    </header>
+    <main class="bg-light section-padding">
+        <div class="container">
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All Destinations</button>
+                <button class="filter-btn" data-filter="mountain">Mountains & Hills</button>
+                <button class="filter-btn" data-filter="water">Waterfalls & Lakes</button>
+                <button class="filter-btn" data-filter="culture">Art & Culture</button>
+                <button class="filter-btn" data-filter="adventure">Adventure</button>
+            </div>
+            <div class="destination-grid full-grid" id="destinations-grid">
+                <article class="dest-card mix mountain">
+                    <div class="dest-img-wrapper">
+                        <span class="badge">Most Popular</span>
+                        <img src="https://images.unsplash.com/photo-1596404984534-118c7d0d046e?auto=format&fit=crop&w=800&q=80" alt="Panyaweuyan">
+                    </div>
+                    <div class="dest-info">
+                        <h3>Terasering Panyaweuyan</h3>
+                        <p class="location">Argapura, Majalengka</p>
+                        <p class="desc">A sprawling landscape of terraced onion fields offering spectacular sunrise views. Situated at 2000 meters above sea level.</p>
+                        <div class="dest-amenities">
+                            <span>Parking</span><span>Food Stalls</span><span>Photo Spots</span>
+                        </div>
+                        <a href="#" class="btn-text">View Details &#8594;</a>
+                    </div>
+                </article>
+                <article class="dest-card mix water">
+                    <div class="dest-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=800&q=80" alt="Muara Jaya">
+                    </div>
+                    <div class="dest-info">
+                        <h3>Curug Muara Jaya</h3>
+                        <p class="location">Argalingga, Majalengka</p>
+                        <p class="desc">A majestic 73-meter multi-tiered waterfall nestled within a lush valley. Accessible via a scenic stone stairway.</p>
+                        <div class="dest-amenities">
+                            <span>Camping Area</span><span>Restrooms</span><span>Gazebo</span>
+                        </div>
+                        <a href="#" class="btn-text">View Details &#8594;</a>
+                    </div>
+                </article>
+                <article class="dest-card mix mountain adventure">
+                    <div class="dest-img-wrapper">
+                        <span class="badge">Extreme</span>
+                        <img src="https://images.unsplash.com/photo-1506905925209-4ce4327249a1?auto=format&fit=crop&w=800&q=80" alt="Ciremai">
+                    </div>
+                    <div class="dest-info">
+                        <h3>Mount Ciremai</h3>
+                        <p class="location">National Park Border</p>
+                        <p class="desc">The highest peak in West Java at 3,078 MASL. The Apuy trail from Majalengka is renowned for its challenging terrain.</p>
+                        <div class="dest-amenities">
+                            <span>Basecamp</span><span>Guide</span><span>Registration</span>
+                        </div>
+                        <a href="#" class="btn-text">View Details &#8594;</a>
+                    </div>
+                </article>
+                <article class="dest-card mix water">
+                    <div class="dest-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80" alt="Situ Cipanten">
+                    </div>
+                    <div class="dest-info">
+                        <h3>Situ Cipanten</h3>
+                        <p class="location">Sindang, Majalengka</p>
+                        <p class="desc">A remarkably clear spring-fed lake dating back to the 1970s. Famous for its underwater visibility and colorful koi fish.</p>
+                        <div class="dest-amenities">
+                            <span>Boat Rental</span><span>Cafeteria</span><span>Parking</span>
+                        </div>
+                        <a href="#" class="btn-text">View Details &#8594;</a>
+                    </div>
+                </article>
+                <article class="dest-card mix culture">
+                    <div class="dest-img-wrapper">
+                        <span class="badge">Heritage</span>
+                        <img src="https://images.unsplash.com/photo-1528222409593-9204bc32e721?auto=format&fit=crop&w=800&q=80" alt="Jatiwangi">
+                    </div>
+                    <div class="dest-info">
+                        <h3>Jatiwangi Art Factory</h3>
+                        <p class="location">Jatiwangi, Majalengka</p>
+                        <p class="desc">A globally recognized contemporary art collective situated in a former roof-tile factory. Hosts the Ceramic Music Festival.</p>
+                        <div class="dest-amenities">
+                            <span>Gallery</span><span>Workshop</span><span>Cafe</span>
+                        </div>
+                        <a href="#" class="btn-text">View Details &#8594;</a>
+                    </div>
+                </article>
+                <article class="dest-card mix adventure water">
+                    <div class="dest-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1544434914-f584e0394334?auto=format&fit=crop&w=800&q=80" alt="Cikadongdong">
+                    </div>
+                    <div class="dest-info">
+                        <h3>Cikadongdong River Tubing</h3>
+                        <p class="location">Rajagaluh, Majalengka</p>
+                        <p class="desc">Navigate the crystal clear, rocky waters of the Cikadongdong river on an inflatable tube with professional local guides.</p>
+                        <div class="dest-amenities">
+                            <span>Safety Gear</span><span>Lockers</span><span>Showers</span>
+                        </div>
+                        <a href="#" class="btn-text">View Details &#8594;</a>
+                    </div>
+                </article>
+                <article class="dest-card mix mountain adventure">
+                    <div class="dest-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80" alt="Paralayang">
+                    </div>
+                    <div class="dest-info">
+                        <h3>Paragliding Mount Panten</h3>
+                        <p class="location">Munjul, Majalengka</p>
+                        <p class="desc">Experience Majalengka from the sky. Tandem flights are available for beginners with stunning views of the city below.</p>
+                        <div class="dest-amenities">
+                            <span>Instructors</span><span>Cafe</span><span>Sunset View</span>
+                        </div>
+                        <a href="#" class="btn-text">View Details &#8594;</a>
+                    </div>
+                </article>
+                <article class="dest-card mix water mountain">
+                    <div class="dest-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=800&q=80" alt="Talaga Herang">
+                    </div>
+                    <div class="dest-info">
+                        <h3>Talaga Herang</h3>
+                        <p class="location">Sindangwangi, Majalengka</p>
+                        <p class="desc">A cold, deep natural pool situated at the foot of Mount Ciremai, surrounded by dense forest and natural rock formations.</p>
+                        <div class="dest-amenities">
+                            <span>Swimming</span><span>Gazebo</span><span>Mosque</span>
+                        </div>
+                        <a href="#" class="btn-text">View Details &#8594;</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="brand-logo light">MAJALENGKA<span class="dot">.</span></a>
+                <p class="footer-desc">The official tourism board dedicated to preserving the culture, protecting the environment, and promoting the magnificent Regency of Majalengka to the world.</p>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-title">Discover</h4>
+                <ul>
+                    <li><a href="destinations.html">All Destinations</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4 class="footer-title">Contact Us</h4>
+                <address class="contact-details">
+                    <p>Jl. KH. Abdul Halim No. 1, Majalengka</p>
+                    <p class="contact-methods">
+                        <a href="tel:+62233123456">+62 233 123456</a><br>
+                    </p>
+                </address>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container bottom-flex">
+                <p class="copyright">&copy; 2026 Discover Majalengka Tourism Board. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-of-service.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+   </body> 
+</html>
