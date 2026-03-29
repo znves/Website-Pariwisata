@@ -8,9 +8,9 @@
 
 <br>
 
-# Disclaimer
+# ⚠️ Disclaimer ⚠️
 
-Seluruh aset foto dalam website ini bukan milik Saya pribadi dan bersumber dari internet. Jika Kamu adalah pemilik sah dari salah satu foto tersebut dan merasa keberatan atas penggunaannya, silakan hubungi saya untuk segera ditindaklanjuti penghapusan aset melalui Instagram @akbaraprilioo atau TikTok @sopbandung.
+Website ini bersifat non-komersial. Seluruh aset foto yang digunakan bersumber dari internet dan hanya ditujukan sebagai estetika pendukung (keindahan visual). Jika Anda adalah pemilik sah dari foto tersebut dan keberatan atas penggunaannya, silakan hubungi saya untuk penghapusan melalui Instagram @akbaraprilioo atau TikTok @sopbandung.
 
 # Discover Majalengka
 
