@@ -8,6 +8,10 @@
 
 <br>
 
+# Disclaimer
+
+Seluruh aset foto dalam website ini bukan milik Saya pribadi dan bersumber dari internet. Jika Kamu adalah pemilik sah dari salah satu foto tersebut dan merasa keberatan atas penggunaannya, silakan hubungi saya untuk segera ditindaklanjuti penghapusan aset melalui Instagram @akbaraprilioo atau TikTok @sopbandung.
+
 # Discover Majalengka
 
 **Discover Majalengka** is a modern, interactive, and beautifully crafted single-page tourism portal dedicated to showcasing the breathtaking natural landscapes, rich Sundanese cultural heritage, and vibrant culinary scene of Majalengka Regency, West Java, Indonesia.
