@@ -10,7 +10,7 @@
 
 # ⚠️ Disclaimer ⚠️
 
-Website ini bersifat non-komersial. Seluruh aset foto yang digunakan bersumber dari internet dan hanya ditujukan sebagai estetika pendukung (keindahan visual). Jika Anda adalah pemilik sah dari foto tersebut dan keberatan atas penggunaannya, silakan hubungi saya untuk penghapusan melalui Instagram @akbaraprilioo atau TikTok @sopbandung.
+Website ini bersifat non-komersial. Seluruh aset foto yang digunakan bersumber dari internet dan hanya ditujukan sebagai estetika pendukung (keindahan visual). Jika Anda adalah pemilik sah dari foto tersebut dan keberatan atas penggunaannya, silakan hubungi saya untuk penghapusan melalui Email akbar@nefhlab.my.id
 
 # Discover Majalengka
 
